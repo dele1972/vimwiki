@@ -1,0 +1,1 @@
+strg + k	settings
