@@ -35,6 +35,7 @@ $ git clone https://github.com/universal-ctags/ctags.git && cd ctags
 
 ```bash
 ./configure
+```
 
 ```bash
 make
