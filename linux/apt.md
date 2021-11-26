@@ -31,6 +31,10 @@ sudo apt --fix-broken install
 sudo apt-get [Option(en)] install PAKET1 [PAKET2]  
 ```
 
+```bash
+sudo apt-get -y install <package-name>
+```
+
 
 ## remove libs wothout any dependencies
 
