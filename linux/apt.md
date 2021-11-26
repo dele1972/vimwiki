@@ -15,6 +15,7 @@ apt-cache policy <package-name>
 
 ```bash
 sudo apt list --installed
+sudo apt list --installed | rg <package-name>
 ```
 
 ## update apt repo
@@ -36,7 +37,7 @@ sudo apt-get -y install <package-name>
 ```
 
 
-## remove libs wothout any dependencies
+## remove libs without any dependencies
 
 ```bash
 sudo apt-get autoremove
