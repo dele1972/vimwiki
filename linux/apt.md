@@ -1,44 +1,62 @@
-check if package is in repo
+## check if package is in repo
+
+```bash
 apt-cache search <package-name>
+```
 
 
-check if package is installed      (https://askubuntu.com/q/423355)
------------------------------
+## check if package is installed
+
+(https://askubuntu.com/q/423355)
+
+```bash
 apt-cache policy <package-name>
+```
 
+```bash
 sudo apt list --installed
+sudo apt list --installed | rg <package-name>
+```
 
+## update apt repo
 
-update apt repo
----------------
+```bash
 sudo apt-get update && sudo apt-get upgrade
 sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove
 sudo apt --fix-broken install
+```
 
-INSTALL
--------
+## INSTALL
+
+```bash
 sudo apt-get [Option(en)] install PAKET1 [PAKET2]  
+```
 
-remove libs wothout any dependencies
-------------------------------------
+```bash
+sudo apt-get -y install <package-name>
+```
+
+
+## remove libs without any dependencies
+
+```bash
 sudo apt-get autoremove
+```
 
+## remove package
 
-remove package
+```bash
 sudo apt remove package_name
-
-
+```
 
 https://www.tecmint.com/useful-basic-commands-of-apt-get-and-apt-cache-for-package-management/
 
 
-
-
-
 ## FEHLER BEI UPDATE (2020-09-17)
+
 (https://forum.ubuntuusers.de/topic/gpg-fehler-oeffentlicher-schluessel-fehlt/)
 
-```shell
+```bash
   Die folgenden Signaturen konnten nicht überprüft werden, weil ihr öffentlicher Schlüssel nicht verfügbar ist: NO_PUBKEY 59BC194978779ADF
 Paketlisten werden gelesen... Fertig
 W: Ziel Packages (main/binary-amd64/Packages) ist mehrfach konfiguriert in /etc/apt/sources.list.d/google-chrome.list:3 und /etc/apt/sources.list.d/google-chrome.list:4
@@ -69,12 +87,5 @@ W: Ziel CNF (main/cnf/Commands-amd64) ist mehrfach konfiguriert in /etc/apt/sour
 W: Ziel CNF (main/cnf/Commands-all) ist mehrfach konfiguriert in /etc/apt/sources.list.d/google-chrome.list:3 und /etc/apt/sources.list.d/google-chrome.list:4
 ```
 
-
-
-
-
-
-
-https://wiki.ubuntuusers.de/apt/apt-get
-https://linuxize.com/post/how-to-uninstall-software-packages-on-ubuntu/
-
+- https://wiki.ubuntuusers.de/apt/apt-get
+- https://linuxize.com/post/how-to-uninstall-software-packages-on-ubuntu/
