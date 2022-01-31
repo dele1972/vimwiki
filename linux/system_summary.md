@@ -9,7 +9,7 @@ sudo inxi -F -x
 ### Installation
 
 ```bash
-sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install -y inxi
+sudo apt-get update -y && sudo apt-get upgrade -y ; sudo apt-get install -y inxi
 ```
 
 ### Links
@@ -23,7 +23,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install -y inx
 
 ----
 
-## bpytop
+## bpytop - an interactive process viewer
 
 ### Installation
 
@@ -34,8 +34,12 @@ sudo snap install bpytop
 
 ----
 
-## htop
+## htop - an interactive process viewer
 
 ```bash
-sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install -y htop
+sudo apt-get update -y && sudo apt-get upgrade -y ; sudo apt-get install -y htop
 ```
+
+### Links
+
+- [Homepage](https://htop.dev/)
