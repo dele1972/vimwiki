@@ -3,13 +3,13 @@
 ## inxi - a full featured system information script
 
 ```bash
-sudo inxi -F -x
+$ sudo inxi -F -x
 ```
 
 ### Installation
 
 ```bash
-sudo apt-get update -y && sudo apt-get upgrade -y ; sudo apt-get install -y inxi
+$ sudo apt-get update -y && sudo apt-get upgrade -y ; sudo apt-get install -y inxi
 ```
 
 ### Links
@@ -28,7 +28,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y ; sudo apt-get install -y inxi
 ### Installation
 
 ```bash
-sudo snap install bpytop
+$ sudo snap install bpytop
 ```
 
 
@@ -37,7 +37,7 @@ sudo snap install bpytop
 ## htop - an interactive process viewer
 
 ```bash
-sudo apt-get update -y && sudo apt-get upgrade -y ; sudo apt-get install -y htop
+$ sudo apt-get update -y && sudo apt-get upgrade -y ; sudo apt-get install -y htop
 ```
 
 ### Links
