@@ -1,7 +1,7 @@
 # DeLe wiki
 
 [Home](index.md)
-[About](about.md)
+[About](README.md)
 [docker](docker/index.md)
 [git](git/index.md)
 [hardware](hardware/index.md)

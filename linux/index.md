@@ -3,12 +3,14 @@
 ## foo
 
 - [after_installation](after_installation.md)
+- [appimage_software__install](appimage_software__install.md)
 - [apt](apt.md)
 - [apt_uninstall_packages](apt_uninstall_packages.md)
 - [commands](commands.md)
 - [grep_to_find_files_contains_specific_string](grep_to_find_files_contains_specific_string.md)
 - [hard_and_soft_link](hard_and_soft_link.md)
 - [how_to_archiving_log_files](how_to_archiving_log_files.md)
+- [keyboard_layout__for_programmers](keyboard_layout__for_programmers.md)
 - [komorebi_theme_changer_errors_prevent_correct_app_start](komorebi_theme_changer_errors_prevent_correct_app_start.md)
 - [memory_management](memory_management.md)
 - [monitor_a_log-file](monitor_a_log-file.md)
