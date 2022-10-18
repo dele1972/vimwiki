@@ -2,6 +2,7 @@
 
 ## foo
 
+- [linux__totally_freezed](linux__totally_freezed.md)
 - [after_installation](after_installation.md)
 - [appimage_software__install](appimage_software__install.md)
 - [apt](apt.md)
