@@ -21,8 +21,8 @@ hit: `Composekey` → type: `s` + `o` → §
 | ä      |         | " a                 |
 |        |         |                     |
 | →      | U+2192  | - >                 |
-| ⇒          | U+21D2  | = >                 |
-| ↛          | U+219B  |                     |
+| ⇒      | U+21D2  | = >                 |
+| ↛      | U+219B  |                     |
 |        |         |                     |
 | ✓      | U+2713  |                     |
 | ✔      | U+2714  |                     |
@@ -32,7 +32,7 @@ hit: `Composekey` → type: `s` + `o` → §
 | •      | U+2022  |                     |
 | ★      | U+2605  |                     |
 | ▶      | U+25B6  |                     |
-| ‣           | U+2023  |                     |
+| ‣      | U+2023  |                     |
 |        |         |                     |
 | └      | U+2514  |                     |
 | ─      | U+2500  |                     |
@@ -49,7 +49,7 @@ hit: `Composekey` → type: `s` + `o` → §
 | ↓      | U+2193  |                     |
 | ↑      | U+2191  |                     |
 | ↔      | U+2194  |                     |
-| ⇔          | U+21D4  |                     |
+| ⇔      | U+21D4  |                     |
 |        |         |                     |
 | ₀      |         | _ 0                 |
 | ₁      |         | _ 1                 |
@@ -58,10 +58,13 @@ hit: `Composekey` → type: `s` + `o` → §
 | ¹      |         | ^ 1                 |
 | „      |         | , "                 |
 | ”      |         | > "                 |
+| –      | U+2013  | - - .               |
 
 ## Links
 
-- [uff8 icons](https://www.utf8icons.com/)
+- UTF8 Symbole
+  - [uff8 icons](https://www.utf8icons.com/)
+    - [Unicode Zeichentabelle](https://unicode-table.com/de/1F892/)
 
 - [Composekey Sequences](https://math.dartmouth.edu/~sarunas/Linux_Compose_Key_Sequences.html)
 
