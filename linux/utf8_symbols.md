@@ -64,7 +64,7 @@ hit: `Composekey` → type: `s` + `o` → §
 
 - UTF8 Symbole
   - [uff8 icons](https://www.utf8icons.com/)
-    - [Unicode Zeichentabelle](https://unicode-table.com/de/1F892/)
+  - [Unicode Zeichentabelle](https://unicode-table.com/de/1F892/)
 
 - [Composekey Sequences](https://math.dartmouth.edu/~sarunas/Linux_Compose_Key_Sequences.html)
 
